@@ -11,7 +11,7 @@ import android.content.Intent;
  */
 public class Scheduler {
 
-    private static Scheduler scheduler = new Scheduler();
+    private static Scheduler scheduler;
     private static Context androidContext;
 
     public static Scheduler getInstance() {
@@ -20,18 +20,18 @@ public class Scheduler {
 
     public static void setAndroidContext(Context context) {
         androidContext = context;
+        scheduler = new Scheduler();
     }
 
     public Scheduler() {
         alarmManager = (AlarmManager) getAndroidContext().getSystemService(Context.ALARM_SERVICE);
+        notificationBuilder = new Notification.Builder(getAndroidContext());
     }
 
     private AlarmManager alarmManager;
     private Notification.Builder notificationBuilder;
 
     public Notification.Builder getNotificationBuilder() {
-        if (notificationBuilder == null)
-            notificationBuilder = new Notification.Builder(getAndroidContext());
         return  notificationBuilder;
     }
 
