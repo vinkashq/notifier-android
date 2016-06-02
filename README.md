@@ -1,6 +1,6 @@
 # Android Notifier
 
-[![](https://jitpack.io/v/com.vinkas/notifier.svg)](https://jitpack.io/#com.vinkas/notifier)
+[![](https://jitpack.io/v/com.vinkas/notifier-android.svg)](https://jitpack.io/#com.vinkas/notifier-android)
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 <hr />
 Simple module to display notifications and Firebase cloud messages
