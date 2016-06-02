@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Notifier.iml" filepath="$PROJECT_DIR$/Notifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/module/app.iml" filepath="$PROJECT_DIR$/module/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module/module.iml" filepath="$PROJECT_DIR$/module/module.iml" />
     </modules>
   </component>
 </project>
