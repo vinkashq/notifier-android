@@ -1,9 +1,9 @@
-package com.vinkas.model;
+package com.vinkas.realm.model;
 
 import android.app.NotificationManager;
 import android.content.Context;
 
-import com.vinkas.notifier.Scheduler;
+import com.vinkas.module.notifier.Scheduler;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

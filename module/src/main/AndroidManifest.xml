@@ -1,10 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.vinkas.notifier">
+    package="com.vinkas.module.notifier">
 
     <uses-permission android:name="vinkas.intent.action.NOTIFICATION" />
 
     <application>
-        <receiver android:name=".Publisher">
+        <receiver android:name="com.vinkas.module.notifier.Publisher">
             <intent-filter>
                 <data android:host="notifier.vinkas.com" android:scheme="notification" />
                 <action android:name="vinkas.intent.action.NOTIFICATION" />

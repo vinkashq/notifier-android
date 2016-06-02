@@ -1,4 +1,4 @@
-package com.vinkas.notifier;
+package com.vinkas.module.notifier;
 
 import android.app.Notification;
 import android.app.NotificationManager;
