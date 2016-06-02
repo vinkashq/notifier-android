@@ -16,6 +16,6 @@ Add this on your project's root 'build.gradle' file
 Add this on your app folder's 'build.gradle' file
 ```
    dependencies {
-         compile 'com.vinkas:notifier:0.0.1'
+         compile 'com.vinkas:notifier:0.1.0'
   }
 ```
